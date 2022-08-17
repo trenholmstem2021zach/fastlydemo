@@ -1,0 +1,21 @@
+{
+  "name": "fastlydemo",
+  "version": "1.0.0",
+  "description": "Demo Fastly ",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module",
+  "keywords": [
+    "demo",
+    "app"
+  ],
+  "author": "Zach Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trenholmstem2021zach/fastlydemo/issues"
+  },
+  "dependencies": {
+    "restify": "^8.6.1"
+  }
+}
