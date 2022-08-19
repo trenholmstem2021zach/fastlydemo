@@ -4,7 +4,7 @@
   "description": "Build App",
   "scripts": {
     "build": "echo 'build  me' ",
-    "test": "curl http://localhost:8080 | grep "
+    "test": "echo 'etst'"
   },
   "repository": {
     "type": "git",

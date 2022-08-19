@@ -19,11 +19,11 @@ jobs:
           node-version: '17'
       - name: Test
         run: |
-          cd frontend-ui
-          python3 -m http.server &
-          #cd ../backend-api
-          #npm install
-          #npm start &
+          #cd frontend-ui
+          #python3 -m http.server &
+          cd backend-api
+          npm install
+          node app.js &
           cd ..
           . tests/backend.test
       - name: showall

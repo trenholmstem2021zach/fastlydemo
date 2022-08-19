@@ -1,4 +1,4 @@
-curl http://localhost:7777/echo/here > backend.output
+curl http://localhost:8080/echo/here > backend.output
 grep '{"name":"here"}' backend.output
 if (( $? == 1 )) ; then
 echo FAILED
