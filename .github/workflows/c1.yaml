@@ -24,6 +24,9 @@ jobs:
           cd backend-api
           npm install
           node app.js &
-      - name: TestBackend
+      - name: TestRun
         run: |
           . tests/backend.test
+      - name: TestCheck
+        run: |
+          . tests/backend2.test

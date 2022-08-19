@@ -1,12 +1,3 @@
 curl http://localhost:8080/echo/here > backend.output
-grep '{"name":"here"}' backend.output
-if (( $? == 1 )) ; then
-echo "*** FAILED ***"
-echo "show error"
-cat backend.output
-echo  " Ending ..."
-exit 1
-else
-echo SUCCESS
-fi
+
 
