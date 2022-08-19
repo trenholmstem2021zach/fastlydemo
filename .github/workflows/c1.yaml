@@ -24,9 +24,8 @@ jobs:
           cd backend-api
           npm install
           node app.js &
-          hostname
-          #cd ..
-          #. tests/backend.test
+          cd ..
+          . tests/backend.test
       - name: showall
         run: |
           ls -lR
