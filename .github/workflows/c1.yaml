@@ -25,3 +25,4 @@ jobs:
       - name: showall
         run: |
           ls -lR
+          python3 --version
