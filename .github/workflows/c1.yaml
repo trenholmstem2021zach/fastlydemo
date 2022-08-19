@@ -21,9 +21,9 @@ jobs:
         run: |
           cd frontend-ui
           python3 -m http.server &
-          cd ../backend-api
-          npm install
-          npm start &
+          #cd ../backend-api
+          #npm install
+          #npm start &
           cd ..
           . tests/backend.test
       - name: showall
