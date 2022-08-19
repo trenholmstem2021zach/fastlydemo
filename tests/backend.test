@@ -1,5 +1,5 @@
 curl http://localhost:8080/echo/here > backend.output
-grep '{"name":"here"}' backend.output
+grep '{"name":"herxe"}' backend.output
 if (( $? == 1 )) ; then
 echo FAILED
 cat backend.output
