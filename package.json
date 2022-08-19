@@ -1,0 +1,19 @@
+{
+  "name": "restlybuild",
+  "version": "1.0.0",
+  "description": "Build App",
+  "scripts": {
+    "build": "echo 'build  me' ",
+    "test": "echo 'etst'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trenholmstem2021zach/fastlydemo.git"
+  },
+  "author": "Zach Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trenholmstem2021zach/fastlydemo/issues"
+  },
+  "homepage": "https://github.com/trenholmstem2021zach/fastlydemo#readme"
+}
