@@ -24,8 +24,8 @@ jobs:
           cd backend-api
           npm install
           node app.js &
-          cd ..
-          . tests/backend.test
+          curl http://localhost:8080/echo/here
+          #. tests/backend.test
       - name: showall
         run: |
           ls -lR
