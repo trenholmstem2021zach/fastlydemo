@@ -1,4 +1,4 @@
-grep '{"name":"here"}' backend.output
+grep '{"name":"hxere"}' backend.output
 if (( $? == 1 )) ; then
 echo "*** FAILED ***"
 echo "show error"
