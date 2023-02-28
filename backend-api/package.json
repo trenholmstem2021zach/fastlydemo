@@ -16,6 +16,6 @@
     "url": "https://github.com/trenholmstem2021zach/fastlydemo/issues"
   },
   "dependencies": {
-    "restify": "^8.6.1"
+    "restify": "^11.1.0"
   }
 }
